@@ -11,7 +11,11 @@ services:
     ports:
       - "3307:3306"
   app:
+<<<<<<< HEAD
     image: 74744556/rails-app
+=======
+    image: 74744556/rails-app:latest
+>>>>>>> 762dc1d7c0a4de614877556a0560599edfd319e1
     volumes:
       - ".:/railsapp"
     ports:
